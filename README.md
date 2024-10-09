@@ -1,1 +1,1 @@
-its a simple countdown timer, dit for killing time sake.
+its a simple countdown timer, did it for killing time purposes :)
