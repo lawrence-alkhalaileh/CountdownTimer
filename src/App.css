@@ -1,0 +1,37 @@
+.section-center {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+img{
+  margin-left: 5rem;
+  width: 500px;
+  height: 500px;
+}
+
+.deadline{
+  display: flex;
+  justify-content: space-around;
+}
+
+.deadline div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  width: 7rem;
+  height: 7rem;
+}
+
+.deadline div h4 {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .section-center {
+    flex-direction: column;
+  }
+}
